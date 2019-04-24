@@ -1,0 +1,238 @@
+Script started on Tue Apr 23 16:29:22 2019
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hscript.sh[?1l>[?2004l
+]2;script.sh]1;script.shzsh: command not found: script.sh
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;31m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hscript.sh   chmod u-x script.sh[1C[P[11C [12D+x script.sh[11D[?1l>[?2004l
+]2;chmod u+x script.sh]1;chmod[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hchmod u+x script.sh[19D[10P[9C          [10D[?1l>[?2004l
+]2;script.sh]1;script.shzsh: command not found: script.sh
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;31m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hl[?1l>[?2004l
+]2;ls -G -lah]1;ltotal 96
+drwxr-xr-x  23 serpentz  staff   736B Apr 23 16:29 [1m[36m.[39;49m[0m
+drwxr-xr-x  14 serpentz  staff   448B Apr 23 16:28 [1m[36m..[39;49m[0m
+-rw-r--r--   1 serpentz  staff   428B Apr 19 21:59 .byebug_history
+-rw-r--r--   1 serpentz  staff   574B Apr 18 21:27 .gitignore
+-rw-r--r--   1 serpentz  staff    10B Apr 18 21:27 .ruby-version
+-rw-r--r--   1 serpentz  staff   1.3K Apr 18 23:21 Gemfile
+-rw-r--r--   1 serpentz  staff   3.8K Apr 18 23:24 Gemfile.lock
+-rw-r--r--   1 serpentz  staff   374B Apr 18 21:27 README.md
+-rw-r--r--   1 serpentz  staff   227B Apr 18 21:27 Rakefile
+drwxr-xr-x  10 serpentz  staff   320B Apr 19 22:31 [1m[36mapp[39;49m[0m
+drwxr-xr-x   8 serpentz  staff   256B Apr 18 21:27 [1m[36mbin[39;49m[0m
+drwxr-xr-x  15 serpentz  staff   480B Apr 18 23:42 [1m[36mconfig[39;49m[0m
+-rw-r--r--   1 serpentz  staff   130B Apr 18 21:27 config.ru
+drwxr-xr-x   5 serpentz  staff   160B Apr 18 23:31 [1m[36mdb[39;49m[0m
+drwxr-xr-x   3 serpentz  staff    96B Apr 18 21:27 [1m[36mlib[39;49m[0m
+drwxr-xr-x   4 serpentz  staff   128B Apr 20 16:12 [1m[36mlog[39;49m[0m
+drwxr-xr-x   3 serpentz  staff    96B Apr 18 21:27 [1m[36mpublic[39;49m[0m
+-rwxr--r--   1 serpentz  staff    30B Apr 23 16:28 [31mscript.sh[39;49m[0m
+drwxr-xr-x   3 serpentz  staff    96B Apr 18 21:27 [1m[36mstorage[39;49m[0m
+drwxr-xr-x   8 serpentz  staff   256B Apr 18 21:27 [1m[36mtest[39;49m[0m
+drwxr-xr-x   8 serpentz  staff   256B Apr 18 21:37 [1m[36mtmp[39;49m[0m
+-rw-r--r--   1 serpentz  staff   8.5K Apr 23 16:30 typescript
+drwxr-xr-x   3 serpentz  staff    96B Apr 18 21:27 [1m[36mvendor[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlscript.sh.script.sh[9D./script.sh[9D[?1l>[?2004l
+]2;./script.sh]1;./script.shHELOOOO
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./script.sh[?1l>[?2004l
+]2;./script.sh]1;./script.shOn branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   app/controllers/graphql_controller.rb[m
+	[32mdeleted:    app/graphql/mutations/test.rb[m
+	[32mnew file:   app/graphql/resolvers/create_user.rb[m
+	[32mmodified:   app/graphql/resolvers/find_user.rb[m
+	[32mmodified:   app/graphql/types/mutation_type.rb[m
+	[32mnew file:   app/graphql/types/user_input_type.rb[m
+	[32mmodified:   app/models/user.rb[m
+	[32mnew file:   script.sh[m
+	[32mnew file:   typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit  g  aatom typescript[1m [0m[0m [?1l>[?2004l
+]2;atom typescript]1;atom[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit push [?1l>[?2004l
+]2;git push]1;git\Everything up-to-date
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h\ ggit commit -m""[1Cs"c"r"i"p"bscrip"ascrip"[1Cscrip"hscrip" scrip"[1C[1C[1C[1C[1Ct" "f"o"r" "a"u"t"o"m"" " " " " " " " " " " " " " " " " " " " "  " " " " " " " " " " " g" " [1C git push      g  ggit  g  atom typescript[15D./script.sh    [11Dl          [10D./script.sh[?1l>[?2004l
+]2;./script.sh]1;./script.shSuccessfully installed bundler-2.0.1
+Parsing documentation for bundler-2.0.1
+Done installing documentation for bundler after 3 seconds
+1 gem installed
+[33mThe dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.[0m
+Using rake 12.3.2
+Using concurrent-ruby 1.1.5
+Using i18n 1.6.0
+Using minitest 5.11.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.5
+Using activesupport 5.2.3
+Using builder 3.2.3
+Using erubi 1.8.0
+Using mini_portile2 2.4.0
+Using nokogiri 1.10.2
+Using rails-dom-testing 2.0.3
+Using crass 1.0.4
+Using loofah 2.2.3
+Using rails-html-sanitizer 1.0.4
+Using actionview 5.2.3
+Using rack 2.0.7
+Using rack-test 1.1.0
+Using actionpack 5.2.3
+Using nio4r 2.3.1
+Using websocket-extensions 0.1.3
+Using websocket-driver 0.7.0
+Using actioncable 5.2.3
+Using globalid 0.4.2
+Using activejob 5.2.3
+Using mini_mime 1.0.1
+Using mail 2.7.1
+Using actionmailer 5.2.3
+Using activemodel 5.2.3
+Using case_transform 0.2
+Using jsonapi-renderer 0.2.0
+Using active_model_serializers 0.10.9
+Using arel 9.0.0
+Using activerecord 5.2.3
+Using mimemagic 0.3.3
+Using marcel 0.3.3
+Using activestorage 5.2.3
+Using bcrypt 3.1.12
+Using msgpack 1.2.10
+Using bootsnap 1.4.3
+Using bundler 1.17.3
+Using byebug 11.0.1
+Using ffi 1.10.0
+Using graphql 1.9.4
+Using jwt 2.1.0
+Using rb-fsevent 0.10.3
+Using rb-inotify 0.10.0
+Using ruby_dep 1.5.0
+Using listen 3.1.5
+Using method_source 0.9.2
+Using pg 1.1.4
+Using puma 3.12.1
+Using rack-cors 1.0.3
+Using thor 0.20.3
+Using railties 5.2.3
+Using sprockets 3.7.2
+Using sprockets-rails 3.2.1
+Using rails 5.2.3
+Using spring 2.0.2
+Using spring-watcher-listen 2.0.1
+[32mBundle complete! 14 Gemfile dependencies, 60 gems now installed.[0m
+[32mUse `bundle info [gemname]` to see where a bundled gem is installed.[0m
+=> Booting Puma
+=> Rails 5.2.3 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.1 (ruby 2.4.5-p335), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://localhost:3000
+Use Ctrl-C to stop
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2019-04-23 18:11:27 -0400 ===
+- Goodbye!
+Exiting
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggita   add . [?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m""b"a"s"h" "s"c"r"i"p"t" "e"x"e"c"i"c"u"l"t"i"o"n" "" " " " " " " " " " c"u"t"i"" " t"i"o"n" "r"u"n" "."/"s"h"" r"i"p"" " " " " " " " " " " [?1l>[?2004l
+]2;git commit -m"bash script execution"]1;git[master 04f2a24] bash script execution
+ 9 files changed, 347 insertions(+), 21 deletions(-)
+ delete mode 100644 backend/app/graphql/mutations/test.rb
+ create mode 100644 backend/app/graphql/resolvers/create_user.rb
+ create mode 100644 backend/app/graphql/types/user_input_type.rb
+ create mode 100755 backend/script.sh
+ create mode 100644 backend/typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../.  aatom ReadEADME.md[1m [0m[0m [?1l>[?2004l
+]2;atom README.md]1;atom[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004httouch travis.yml.travis.yml[10D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
+]2;touch .travis.yml]1;touch[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit init[?1l>[?2004l
+]2;git init]1;gitInitialized empty Git repository in /Users/serpentz/Documents/development/Money-App/backend/.git/
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggig  options
+Puma starting in single mode...
+* Version 3.12.1 (ruby 2.4.5-p335), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://localhost:3000
+Use Ctrl-C to stop
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2019-04-23 18:11:27 -0400 ===
+- Goodbye!
+Exiting
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggita   add . [?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m""b"a"s"h" "s"c"r"i"p"t" "e"x"e"c"i"c"u"l"t"i"o"n" "" " " " " " " " " " c"u"t"i"" " t"i"o"n" "r"u"n" "."/"s"h"" r"i"p"" " " " " " " " " " " [?1l>[?2004l
+]2;git commit -m"bash script execution"]1;git[master 04f2a24] bash script execution
+ 9 files changed, 347 insertions(+), 21 deletions(-)
+ delete mode 100644 backend/app/graphql/mutations/test.rb
+ create mode 100644 backend/app/graphql/resolvers/create_user.rb
+ create mode 100644 backend/app/graphql/types/user_input_type.rb
+ create mode 100755 backend/script.sh
+ create mode 100644 backend/typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../.  aatom ReadEADME.md[1m [0m[0m [?1l>[?2004l
+]2;atom README.md]1;atom[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004httouch travis.yml.travis.yml[10D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
+]2;touch .travis.yml]1;touch[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit init[?1l>[?2004l
+]2;git init]1;gitInitialized empty Git repository in /Users/serpentz/Documents/development/Money-App/backend/.git/
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggig  ggit status[?1l>[?2004l
+]2;git status]1;gitOn branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+	[31m.ruby-version[m
+	[31m.travis.yml[m
+	[31mGemfile[m
+	[31mGemfile.lock[m
+	[31mREADME.md[m
+	[31mRakefile[m
+	[31mapp/[m
+	[31mbin/[m
+	[31mconfig.ru[m
+	[31mconfig/[m
+	[31mdb/[m
+	[31mlib/[m
+	[31mlog/[m
+	[31mpublic/[m
+	[31mscript.sh[m
+	[31mstorage/[m
+	[31mtest/[m
+	[31mtmp/[m
+	[31mtypescript[m
+	[31mvendor/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h                                                                    ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../.  aatom ReadEADME.md[1m [0m[0m [?1l>[?2004l
+]2;atom README.md]1;atom[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004httouch travis.yml.travis.yml[10D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
+]2;touch .travis.yml]1;touch[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit init[?1l>[?2004l
+]2;git init]1;gitInitialized empty Git repository in /Users/serpentz/Documents/development/Money-App/backend/.git/
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggig  ggit status[?1l>[?2004l
+]2;git status]1;gitOn branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+	[31m.ruby-version[m
+	[31m.travis.yml[m
+	[31mGemfile[m
+	[31mGemfile.lock[m
+	[31mREADME.md[m
+	[31mRakefile[m
+	[31mapp/[m
+	[31mbin/[m
+	[31mconfig.ru[m
+	[31mconfig/[m
+	[31mdb/[m
+	[31mlib/[m
+	[31mlog/[m
+	[31mpublic/[m
+	[31mscript.sh[m
+	[31mstorage/[m
+	[31mtest/[m
+	[31mtmp/[m
+	[31mtypescript[m
+	[31mvendor/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h

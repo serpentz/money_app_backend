@@ -1,0 +1,15 @@
+class User < ApplicationRecord
+
+  has_secure_password
+
+  #validations
+  validates :email, presence: true, uniqueness: true
+  validates :username, presence: true, uniqueness: true
+
+  has_many :sent_payments, :class_name => 'Payment', :foreign_key => 'sender_id'
+  has_many :received_payments, :class_name => 'Payment', :foreign_key => 'recipient_id'
+
+  def payments
+    {sent: self.sent_payments, received: self.received_payments }
+  end
+end

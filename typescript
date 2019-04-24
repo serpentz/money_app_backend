@@ -145,30 +145,6 @@ Exiting
 ]2;atom README.md]1;atom[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004httouch travis.yml.travis.yml[10D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
 ]2;touch .travis.yml]1;touch[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit init[?1l>[?2004l
 ]2;git init]1;gitInitialized empty Git repository in /Users/serpentz/Documents/development/Money-App/backend/.git/
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggig  options
-Puma starting in single mode...
-* Version 3.12.1 (ruby 2.4.5-p335), codename: Llamas in Pajamas
-* Min threads: 5, max threads: 5
-* Environment: development
-* Listening on tcp://localhost:3000
-Use Ctrl-C to stop
-^C- Gracefully stopping, waiting for requests to finish
-=== puma shutdown: 2019-04-23 18:11:27 -0400 ===
-- Goodbye!
-Exiting
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggita   add . [?1l>[?2004l
-]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m""b"a"s"h" "s"c"r"i"p"t" "e"x"e"c"i"c"u"l"t"i"o"n" "" " " " " " " " " " c"u"t"i"" " t"i"o"n" "r"u"n" "."/"s"h"" r"i"p"" " " " " " " " " " " [?1l>[?2004l
-]2;git commit -m"bash script execution"]1;git[master 04f2a24] bash script execution
- 9 files changed, 347 insertions(+), 21 deletions(-)
- delete mode 100644 backend/app/graphql/mutations/test.rb
- create mode 100644 backend/app/graphql/resolvers/create_user.rb
- create mode 100644 backend/app/graphql/types/user_input_type.rb
- create mode 100755 backend/script.sh
- create mode 100644 backend/typescript
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../.  aatom ReadEADME.md[1m [0m[0m [?1l>[?2004l
-]2;atom README.md]1;atom[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004httouch travis.yml.travis.yml[10D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
-]2;touch .travis.yml]1;touch[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit init[?1l>[?2004l
-]2;git init]1;gitInitialized empty Git repository in /Users/serpentz/Documents/development/Money-App/backend/.git/
 [1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggig  ggit status[?1l>[?2004l
 ]2;git status]1;gitOn branch master
 
@@ -200,39 +176,266 @@ Untracked files:
 	[31mvendor/[m
 
 nothing added to commit but untracked files present (use "git add" to track)
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h                                                                    ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../.  aatom ReadEADME.md[1m [0m[0m [?1l>[?2004l
-]2;atom README.md]1;atom[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004httouch travis.yml.travis.yml[10D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
-]2;touch .travis.yml]1;touch[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit init[?1l>[?2004l
-]2;git init]1;gitInitialized empty Git repository in /Users/serpentz/Documents/development/Money-App/backend/.git/
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggig  ggit status[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit stt atus[?1l>[?2004l
 ]2;git status]1;gitOn branch master
 
 No commits yet
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
 
-	[31m.gitignore[m
-	[31m.ruby-version[m
-	[31m.travis.yml[m
-	[31mGemfile[m
-	[31mGemfile.lock[m
-	[31mREADME.md[m
-	[31mRakefile[m
-	[31mapp/[m
-	[31mbin/[m
-	[31mconfig.ru[m
-	[31mconfig/[m
-	[31mdb/[m
-	[31mlib/[m
-	[31mlog/[m
-	[31mpublic/[m
-	[31mscript.sh[m
-	[31mstorage/[m
-	[31mtest/[m
-	[31mtmp/[m
-	[31mtypescript[m
-	[31mvendor/[m
+	[32mnew file:   .gitignore[m
+	[32mnew file:   .ruby-version[m
+	[32mnew file:   .travis.yml[m
+	[32mnew file:   Gemfile[m
+	[32mnew file:   Gemfile.lock[m
+	[32mnew file:   README.md[m
+	[32mnew file:   Rakefile[m
+	[32mnew file:   app/channels/application_cable/channel.rb[m
+	[32mnew file:   app/channels/application_cable/connection.rb[m
+	[32mnew file:   app/controllers/application_controller.rb[m
+	[32mnew file:   app/controllers/concerns/.keep[m
+	[32mnew file:   app/controllers/graphql_controller.rb[m
+	[32mnew file:   app/controllers/payments_controller.rb[m
+	[32mnew file:   app/controllers/users_controller.rb[m
+	[32mnew file:   app/graphql/backend_schema.rb[m
+	[32mnew file:   app/graphql/mutations/.keep[m
+	[32mnew file:   app/graphql/resolvers/base.rb[m
+	[32mnew file:   app/graphql/resolvers/create_user.rb[m
+	[32mnew file:   app/graphql/resolvers/find_user.rb[m
+	[32mnew file:   app/graphql/types/.keep[m
+	[32mnew file:   app/graphql/types/base_enum.rb[m
+	[32mnew file:   app/graphql/types/base_input_object.rb[m
+	[32mnew file:   app/graphql/types/base_interface.rb[m
+	[32mnew file:   app/graphql/types/base_object.rb[m
+	[32mnew file:   app/graphql/types/base_scalar.rb[m
+	[32mnew file:   app/graphql/types/base_union.rb[m
+	[32mnew file:   app/graphql/types/mutation_type.rb[m
+	[32mnew file:   app/graphql/types/payment_type.rb[m
+	[32mnew file:   app/graphql/types/payments_type.rb[m
+	[32mnew file:   app/graphql/types/query_type.rb[m
+	[32mnew file:   app/graphql/types/test_type.rb[m
+	[32mnew file:   app/graphql/types/user_input_type.rb[m
+	[32mnew file:   app/graphql/types/user_type.rb[m
+	[32mnew file:   app/jobs/application_job.rb[m
+	[32mnew file:   app/mailers/application_mailer.rb[m
+	[32mnew file:   app/models/application_record.rb[m
+	[32mnew file:   app/models/concerns/.keep[m
+	[32mnew file:   app/models/payment.rb[m
+	[32mnew file:   app/models/user.rb[m
+	[32mnew file:   app/serializers/payment_serializer.rb[m
+	[32mnew file:   app/serializers/user_serializer.rb[m
+	[32mnew file:   app/views/layouts/mailer.html.erb[m
+	[32mnew file:   app/views/layouts/mailer.text.erb[m
+	[32mnew file:   bin/bundle[m
+	[32mnew file:   bin/rails[m
+	[32mnew file:   bin/rake[m
+	[32mnew file:   bin/setup[m
+	[32mnew file:   bin/spring[m
+	[32mnew file:   bin/update[m
+	[32mnew file:   config.ru[m
+	[32mnew file:   config/application.rb[m
+	[32mnew file:   config/boot.rb[m
+	[32mnew file:   config/cable.yml[m
+	[32mnew file:   config/credentials.yml.enc[m
+	[32mnew file:   config/database.yml[m
+	[32mnew file:   config/environment.rb[m
+	[32mnew file:   config/environments/development.rb[m
+	[32mnew file:   config/environments/production.rb[m
+	[32mnew file:   config/environments/test.rb[m
+	[32mnew file:   config/initializers/application_controller_renderer.rb[m
+	[32mnew file:   config/initializers/backtrace_silencers.rb[m
+	[32mnew file:   config/initializers/cors.rb[m
+	[32mnew file:   config/initializers/filter_parameter_logging.rb[m
+	[32mnew file:   config/initializers/inflections.rb[m
+	[32mnew file:   config/initializers/mime_types.rb[m
+	[32mnew file:   config/initializers/wrap_parameters.rb[m
+	[32mnew file:   config/locales/en.yml[m
+	[32mnew file:   config/puma.rb[m
+	[32mnew file:   config/routes.rb[m
+	[32mnew file:   config/spring.rb[m
+	[32mnew file:   config/storage.yml[m
+	[32mnew file:   db/migrate/20190412212549_create_users.rb[m
+	[32mnew file:   db/migrate/20190412212924_create_payments.rb[m
+	[32mnew file:   db/schema.rb[m
+	[32mnew file:   db/seeds.rb[m
+	[32mnew file:   lib/tasks/.keep[m
+	[32mnew file:   log/.keep[m
+	[32mnew file:   public/robots.txt[m
+	[32mnew file:   script.sh[m
+	[32mnew file:   storage/.keep[m
+	[32mnew file:   test/controllers/.keep[m
+	[32mnew file:   test/controllers/payments_controller_test.rb[m
+	[32mnew file:   test/controllers/users_controller_test.rb[m
+	[32mnew file:   test/fixtures/.keep[m
+	[32mnew file:   test/fixtures/files/.keep[m
+	[32mnew file:   test/fixtures/links.yml[m
+	[32mnew file:   test/fixtures/payments.yml[m
+	[32mnew file:   test/fixtures/users.yml[m
+	[32mnew file:   test/integration/.keep[m
+	[32mnew file:   test/mailers/.keep[m
+	[32mnew file:   test/models/.keep[m
+	[32mnew file:   test/models/link_test.rb[m
+	[32mnew file:   test/models/payment_test.rb[m
+	[32mnew file:   test/models/user_test.rb[m
+	[32mnew file:   test/test_helper.rb[m
+	[32mnew file:   tmp/.keep[m
+	[32mnew file:   typescript[m
+	[32mnew file:   vendor/.keep[m
 
-nothing added to commit but untracked files present (use "git add" to track)
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m""i"n"i"t"[?1l>[?2004l
+]2;git commit -m"init"]1;git[master (root-commit) 0075632] init
+ 98 files changed, 1751 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .ruby-version
+ create mode 100644 .travis.yml
+ create mode 100644 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100644 README.md
+ create mode 100644 Rakefile
+ create mode 100644 app/channels/application_cable/channel.rb
+ create mode 100644 app/channels/application_cable/connection.rb
+ create mode 100644 app/controllers/application_controller.rb
+ create mode 100644 app/controllers/concerns/.keep
+ create mode 100644 app/controllers/graphql_controller.rb
+ create mode 100644 app/controllers/payments_controller.rb
+ create mode 100644 app/controllers/users_controller.rb
+ create mode 100644 app/graphql/backend_schema.rb
+ create mode 100644 app/graphql/mutations/.keep
+ create mode 100644 app/graphql/resolvers/base.rb
+ create mode 100644 app/graphql/resolvers/create_user.rb
+ create mode 100644 app/graphql/resolvers/find_user.rb
+ create mode 100644 app/graphql/types/.keep
+ create mode 100644 app/graphql/types/base_enum.rb
+ create mode 100644 app/graphql/types/base_input_object.rb
+ create mode 100644 app/graphql/types/base_interface.rb
+ create mode 100644 app/graphql/types/base_object.rb
+ create mode 100644 app/graphql/types/base_scalar.rb
+ create mode 100644 app/graphql/types/base_union.rb
+ create mode 100644 app/graphql/types/mutation_type.rb
+ create mode 100644 app/graphql/types/payment_type.rb
+ create mode 100644 app/graphql/types/payments_type.rb
+ create mode 100644 app/graphql/types/query_type.rb
+ create mode 100644 app/graphql/types/test_type.rb
+ create mode 100644 app/graphql/types/user_input_type.rb
+ create mode 100644 app/graphql/types/user_type.rb
+ create mode 100644 app/jobs/application_job.rb
+ create mode 100644 app/mailers/application_mailer.rb
+ create mode 100644 app/models/application_record.rb
+ create mode 100644 app/models/concerns/.keep
+ create mode 100644 app/models/payment.rb
+ create mode 100644 app/models/user.rb
+ create mode 100644 app/serializers/payment_serializer.rb
+ create mode 100644 app/serializers/user_serializer.rb
+ create mode 100644 app/views/layouts/mailer.html.erb
+ create mode 100644 app/views/layouts/mailer.text.erb
+ create mode 100755 bin/bundle
+ create mode 100755 bin/rails
+ create mode 100755 bin/rake
+ create mode 100755 bin/setup
+ create mode 100755 bin/spring
+ create mode 100755 bin/update
+ create mode 100644 config.ru
+ create mode 100644 config/application.rb
+ create mode 100644 config/boot.rb
+ create mode 100644 config/cable.yml
+ create mode 100644 config/credentials.yml.enc
+ create mode 100644 config/database.yml
+ create mode 100644 config/environment.rb
+ create mode 100644 config/environments/development.rb
+ create mode 100644 config/environments/production.rb
+ create mode 100644 config/environments/test.rb
+ create mode 100644 config/initializers/application_controller_renderer.rb
+ create mode 100644 config/initializers/backtrace_silencers.rb
+ create mode 100644 config/initializers/cors.rb
+ create mode 100644 config/initializers/filter_parameter_logging.rb
+ create mode 100644 config/initializers/inflections.rb
+ create mode 100644 config/initializers/mime_types.rb
+ create mode 100644 config/initializers/wrap_parameters.rb
+ create mode 100644 config/locales/en.yml
+ create mode 100644 config/puma.rb
+ create mode 100644 config/routes.rb
+ create mode 100644 config/spring.rb
+ create mode 100644 config/storage.yml
+ create mode 100644 db/migrate/20190412212549_create_users.rb
+ create mode 100644 db/migrate/20190412212924_create_payments.rb
+ create mode 100644 db/schema.rb
+ create mode 100644 db/seeds.rb
+ create mode 100644 lib/tasks/.keep
+ create mode 100644 ggit commit -m""i"n"i"t"[?1l>[?2004l
+]2;git commit -m"init"]1;git[master (root-commit) 0075632] init
+ 98 files changed, 1751 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .ruby-version
+ create mode 100644 .travis.yml
+ollers/users_controller_test.rb
+ create mode 100644 test/fixtures/.keep
+ create mode 100644 test/fixtures/files/.keep
+ create mode 100644 test/fixtures/links.yml
+ create mode 100644 test/fixtures/payments.yml
+ create mode 100644 test/fixtures/users.yml
+ create mode 100644 test/integration/.keep
+ create mode 100644 test/mailers/.keep
+ create mode 100644 test/models/.keep
+ create mode 100644 test/models/link_test.rb
+ create mode 100644 test/models/payment_test.rb
+ create mode 100644 test/models/user_test.rb
+ create mode 100644 test/test_helper.rb
+ create mode 100644 tmp/.keep
+ create mode 100644 typescript
+ create mode 100644 vendor/.keep
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit push [7mhttps://github.com/serpentz/money_app_backend.git[27m[49D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27ms[27me[27mr[27mp[27me[27mn[27mt[27mz[27m/[27mm[27mo[27mn[27me[27my[27m_[27ma[27mp[27mp[27m_[27mb[27ma[27mc[27mk[27me[27mn[27md[27m.[27mg[27mi[27mt[?1l>[?2004l
+]2;git push https://github.com/serpentz/money_app_backend.git]1;gitfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/serpentz/money_app_backend.git master
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;31m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7m git push --set-upstream https://github.com/serpentz/money_app_backend.git master[27m[81D[27m [27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27m-[27m-[27ms[27me[27mt[27m-[27mu[27mp[27ms[27mt[27mr[27me[27ma[27mm[27m [27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27ms[27me[27mr[27mp[27me[27mn[27mt[27mz[27m/[27mm[27mo[27mn[27me[27my[27m_[27ma[27mp[27mp[27m_[27mb[27ma[27mc[27mk[27me[27mn[27md[27m.[27mg[27mi[27mt[27m [27mm[27ma[27ms[27mt[27me[27mr[?1l>[?2004l
+]2;git push --set-upstream https://github.com/serpentz/money_app_backend.git ]1;gitEnumerating objects: 113, done.
+Counting objects:   0% (1/113)   Counting objects:   1% (2/113)   Counting objects:   2% (3/113)   Counting objects:   3% (4/113)   Counting objects:   4% (5/113)   Counting objects:   5% (6/113)   Counting objects:   6% (7/113)   Counting objects:   7% (8/113)   Counting objects:   8% (10/113)   Counting objects:   9% (11/113)   Counting objects:  10% (12/113)   Counting objects:  11% (13/113)   Counting objects:  12% (14/113)   Counting objects:  13% (15/113)   Counting objects:  14% (16/113)   Counting objects:  15% (17/113)   Counting objects:  16% (19/113)   Counting objects:  17% (20/113)   Counting objects:  18% (21/113)   Counting objects:  19% (22/113)   Counting objects:  20% (23/113)   Counting objects:  21% (24/113)   Counting objects:  22% (25/113)   Counting objects:  23% (26/113)   Counting objects:  24% (28/113)   Counting objects:  25% (29/113)   Counting objects:  26% (30/113)   Counting objects:  27% (31/113)   Counting objects:  28% (32/113)   Counting objects:  29% (33/113)   Counting objects:  30% (34/113)   Counting objects:  31% (36/113)   Counting objects:  32% (37/113)   Counting objects:  33% (38/113)   Counting objects:  34% (39/113)   Counting objects:  35% (40/113)   Counting objects:  36% (41/113)   Counting objects:  37% (42/113)   Counting objects:  38% (43/113)   Counting objects:  39% (45/113)   Counting objects:  40% (46/113)   Counting objects:  41% (47/113)   Counting objects:  42% (48/113)   Counting objects:  43% (49/113)   Counting objects:  44% (50/113)   Counting objects:  45% (51/113)   Counting objects:  46% (52/113)   Counting objects:  47% (54/113)   Counting objects:  48% (55/113)   Counting objects:  49% (56/113)   Counting objects:  50% (57/113)   Counting objects:  51% (58/113)   Counting objects:  52% (59/113)   Counting objects:  53% (60/113)   Counting objects:  54% (62/113)   Counting objects:  55% (63/113)   Counting objects:  56% (64/113)   Counting objects:  57% (65/113)   Counting objects:  58% (66/113)   Counting objects:  59% (67/113)   Counting objects:  60% (68/113)   Counting objects:  61% (69/113)   Counting objects:  62% (71/113)   Counting objects:  63% (72/113)   Counting objects:  64% (73/113)   Counting objects:  65% (74/113)   Counting objects:  66% (75/113)   Counting objects:  67% (76/113)   Counting objects:  68% (77/113)   Counting objects:  69% (78/113)   Counting objects:  70% (80/113)   Counting objects:  71% (81/113)   Counting objects:  72% (82/113)   Counting objects:  73% (83/113)   Counting objects:  74% (84/113)   Counting objects:  75% (85/113)   Counting objects:  76% (86/113)   Counting objects:  77% (88/113)   Counting objects:  78% (89/113)   Counting objects:  79% (90/113)   Counting objects:  80% (91/113)   Counting objects:  81% (92/113)   Counting objects:  82% (93/113)   Counting objects:  83% (94/113)   Counting objects:  84% (95/113)   Counting objects:  85% (97/113)   Counting objects:  86% (98/113)   Counting objects:  87% (99/113)   Counting objects:  88% (100/113)   Counting obje[7m git push --set-upstream https://github.com/serpentz/money_app_backend.git master[27m[81D[27m [27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27m-[27m-[27ms[27me[27mt[27m-[27mu[27mp[27ms[27mt[27mr[27me[27ma[27mm[27m [27mh[27m  96% (109/113)   Counting objects:  97% (110/113)   Counting objects:  98% (111/113)   Counting objects:  99% (112/113)   Counting objects: 100% (113/113)   Counting objects: 100% (113/113), done.
+Delta compression using up to 12 threads
+Compressing objects:   1% (1/100)   Compressing objects:   2% (2/100)   Compressing objects:   3% (3/100)   Compressing objects:   4% (4/100)   Compressing objects:   5% (5/100)   Compressing objects:   6% (6/100)   Compressing objects:   7% (7/100)   Compressing objects:   8% (8/100)   Compressing objects:   9% (9/100)   Compressing objects:  10% (10/100)   Compressing objects:  11% (11/100)   Compressing objects:  12% (12/100)   Compressing objects:  13% (13/100)   Compressing objects:  14% (14/100)   Compressing objects:  15% (15/100)   Compressing objects:  16% (16/100)   Compressing objects:  17% (17/100)   Compressing objects:  18% (18/100)   Compressing objects:  19% (19/100)   Compressing objects:  20% (20/100)   Compressing objects:  21% (21/100)   Compressing objects:  22% (22/100)   Compressing objects:  23% (23/100)   Compressing objects:  24% (24/100)   Compressing objects:  25% (25/100)   Compressing objects:  26% (26/100)   Compressing objects:  27% (27/100)   Compressing objects:  28% (28/100)   Compressing objects:  29% (29/100)   Compressing objects:  30% (30/100)   Compressing objects:  31% (31/100)   Compressing objects:  32% (32/100)   Compressing objects:  33% (33/100)   Compressing objects:  34% (34/100)   Compressing objects:  35% (35/100)   Compressing objects:  36% (36/100)   Compressing objects:  37% (37/100)   Compressing objects:  38% (38/100)   Compressing objects:  39% (39/100)   Compressing objects:  40% (40/100)   Compressing objects:  41% (41/100)   Compressing objects:  42% (42/100)   Compressing objects:  43% (43/100)   Compressing objects:  44% (44/100)   Compressing objects:  45% (45/100)   Compressing objects:  46% (46/100)   Compressing objects:  47% (47/100)   Compressing objects:  48% (48/100)   Compressing objects:  49% (49/100)   Compressing objects:  50% (50/100)   Compressing objects:  51% (51/100)   Compressing objects:  52% (52/100)   Compressing objects:  53% (53/100)   Compressing objects:  54% (54/100)   Compressing objects:  55% (55/100)   Compressing objects:  56% (56/100)   Compressing objects:  57% (57/100)   Compressing objects:  58% (58/100)   Compressing objects:  59% (59/100)   Compressing objects:  60% (60/100)   Compressing objects:  61% (61/100)   Compressing objects:  62% (62/100)   Compressing objects:  63% (63/100)   Compressing objects:  64% (64/100)   Compressing objects:  65% (65/100)   Compressing objects:  66% (66/100)   Compressing objects:  67% (67/100)   Compressing objects:  68% (68/100)   Compressing objects:  69% (69/100)   Compressing objects:  70% (70/100)   Compressing objects:  71% (71/100)   Compressing objects:  72% (72/100)   Compressing objects:  73% (73/100)   Compressing objects:  74% (74/100)   Compressing objects:  75% (75/100)   Compressing objects:  76% (76/100)   Compressing objects:  77% (77/100)   Compressing objects:  78% (78/100)   Compressing objects:  79% (79/100)   Compressing objects:  80% (80/100)   Compressing objects:  81% (81/100)   Compressing objects:  82% (82/100)   Compressing objects:  83% (83/100)   Compressing objects:  84% (84/100)   Compressing objects:  85% (85/100)   Compressing objects:  86% (86/100)   Compressing objects:  87% (87/100)   Compressing objects:  88% (88/100)   Compressing objects:  89% (89/100)   Compressing objects:  90% (90/100)   Compressing objects:  91% (91/100)   Compressing objects:  92% (92/100)   Compressing objects:  93% (93/100)   Compressing objects:  94% (94/100)   Compressing objects:  95% (95/1  96% (109/113)   Counting objects:  97% (110/113)   Counting objects:  98% (111/113)   Counting objects:  99% (112/113)   Counting objects: 100% (113/113)   Counting objects: 100% (113/113), done.
+Delta compression using up to 12 threads
+Compressins:   0% (1/113)   Writing objects:   1% (2/113)   Writing objects:   2% (3/113)   Writing objects:   3% (4/113)   Writing objects:   4% (5/113)   Writing objects:   5% (6/113)   Writing objects:   6% (7/113)   Writing objects:   7% (8/113)   Writing objects:   8% (10/113)   Writing objects:   9% (11/113)   Writing objects:  10% (12/113)   Writing objects:  11% (13/113)   Writing objects:  12% (14/113)   Writing objects:  13% (15/113)   Writing objects:  14% (16/113)   Writing objects:  15% (17/113)   Writing objects:  16% (19/113)   Writing objects:  17% (20/113)   Writing objects:  18% (21/113)   Writing objects:  19% (22/113)   Writing objects:  20% (23/113)   Writing objects:  21% (24/113)   Writing objects:  22% (25/113)   Writing objects:  23% (26/113)   Writing objects:  24% (28/113)   Writing objects:  25% (29/113)   Writing objects:  26% (30/113)   Writing objects:  27% (31/113)   Writing objects:  28% (32/113)   Writing objects:  29% (33/113)   Writing objects:  30% (34/113)   Writing objects:  31% (36/113)   Writing objects:  32% (37/113)   Writing objects:  33% (38/113)   Writing objects:  34% (39/113)   Writing objects:  35% (40/113)   Writing objects:  36% (41/113)   Writing objects:  37% (42/113)   Writing objects:  38% (43/113)   Writing objects:  39% (45/113)   Writing objects:  40% (46/113)   Writing objects:  41% (47/113)   Writing objects:  42% (48/113)   Writing objects:  43% (49/113)   Writing objects:  44% (50/113)   Writing objects:  45% (51/113)   Writing objects:  46% (52/113)   Writing objects:  47% (54/113)   Writing objects:  48% (55/113)   Writing objects:  49% (56/113)   Writing objects:  50% (57/113)   Writing objects:  51% (58/113)   Writing objects:  52% (59/113)   Writing objects:  53% (60/113)   Writing objects:  54% (62/113)   Writing objects:  55% (63/113)   Writing objects:  56% (64/113)   Writing objects:  57% (65/113)   Writing objects:  58% (66/113)   Writing objects:  59% (67/113)   Writing objects:  60% (68/113)   Writing objects:  61% (69/113)   Writing objects:  62% (71/113)   Writing objects:  63% (72/113)   Writing objects:  64% (73/113)   Writing objects:  65% (74/113)   Writing objects:  66% (75/113)   Writing objects:  67% (76/113)   Writing objects:  68% (77/113)   Writing objects:  69% (78/113)   Writing objects:  70% (80/113)   Writing objects:  71% (81/113)   Writing objects:  72% (82/113)   Writing objects:  73% (83/113)   Writing objects:  74% (84/113)   Writing objects:  75% (85/113)   Writing objects:  76% (86/113)   Writing objects:  77% (88/113)   Writing objects:  78% (89/113)   Writing objects:  79% (90/113)   Writing objects:  80% (91/113)   Writing objects:  81% (92/113)   Writing objects:  82% (93/113)   Writing objects:  83% (94/113)   Writing objects:  84% (95/113)   Writing objects:  85% (97/113)   Writing objects:  86% (98/113)   Writing objects:  87% (99/113)   Writing objects:  88% (100/113)   Writing objects:  89% (101/113)   Writing objects:  90% (102/113)   Writing objects:  91% (103/113)   Writing objects:  92% (104/113)   Writing objects:  93% (106/113)   Writing objects:  94% (107/113)   Writing objects:  95% (108/113)   Writing objects:  96% (109/113)   Writing objects:  97% (110/113)   Writing objects:  98% (111/113)   Writing objects:  99% (112/113)   Writing objects: 100% (113/113)   Writing objects: 100% (113/113), 29.16 KiB | 2.65 MiB/s, done.
+Total 113 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/serpentz/money_app_backend.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'https://github.com/sers:   0% (1/113)   Writing objects:   1% (2/113)   Writing objects:   2% (3/113)   Writing objects:   3% (4/113)   Writing objects:   4% (5/113)   Writing objects:   5% (6/113)   Writing objects:   6% (7/113)   Writing objects:   7% (8/113)   Writins/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit status[?1l>[?2004l
+]2;git status]1;gitOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add . [?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h% (54/113)   Writing objects:  48% (55/113)   Writing objects:  49% (56/113)   Writing objects:  50% (57/113)   Writing objects:  51% (58/113)   Writing objects:  52% (59/113)   Writing objects:  53% (60/113)   Writing objects:  54% (62/113)   Writing objects:  55% (63/113)   Writing objects:  56% (64/113)   Writing objects:  57% (65/113)   Writing objects:  58% (66/113)   Writing objects:  59% (67/113)   Writing objects:  60% (68/113)   Writing objects:  61% (69/113)   Writing objects:  62% (71/113)   Writing objects:  63% (72/113)   Writing objects:  64% (73/113)   Writing objects:  65% (74/113)   Writing objects:  66% (75/113)   Writing objects:  67% (76/113)   Writing objects:  68% (77/113)   Writing objects:  69% (78/113)   Writing objects:  70% (80/113)   Writing objects:  71% (81/113)   Writing objects:  72% (82/113)   Writing objects:  73% (83/113)   Writing objects:  74% (84/113)   Writing objects:  75% (85/113)   Writing objects:  76% (86/113)   Writing objects:  77% (88/113)   Writing objects:  78% (89/113)   Writing objects:  79% (90/113)   Writing objects:  80% (91/113)   Writing objects:  81% (92/113)   Writing objects:  82% (93/113)   Writing objects:  83% (94/113)   Writing objects:  84% (95/1s:   0% (1/113)   Writing objects:   1% (2/113)   Writing objects:   2% (3/113)   Writing objects:   3% (4/113)   Writing objects:   4% (5/113)   Writing objects:   5% (6/113)   Writing objects:   6% (7/113)   Writing objects:   7% (8/113)   Writing objects:   8% (10/113)   Writing objects:   9% (11/113)   Writing objects:  10% (12/113)   Writing objects:  11% (13/113)   Writing objects:  12% (14/113)   Writing objects:  13% (15/113)   Writing objects:  14% (16/113)   Writing objects:  15% (17/113)   Writing objects:  16% (19/113)   Writing objects:  17% (20/113)   Writing objects:  18% (21/113)   Writing objects:  19% (22/113)   Writing objects:  20% (23/113)   Writing objects:  21% (24/113)   Writing objects:  22% (25/113)   Writing objects:  23% (26/113)   Writing objects:  24% (28/113)   Writing objects:  25% (29/113)   Writing objects:  26% (30/113)   Writing objects:  27% (31/113)   Writing objects:  28% (32/113)   Writing objects:  29% (33/113)   Writing objects:  30% (34/113)   Writing objects:  31% (36/113)   Writing objects:  32% (37/113)   Writing objects:  33% (38/113)   Writing objects:  34% (39/113)   Writing objects:  35% (40/113)   Writing objects:  36% (41/113)   s/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit status[?1l>[?2004l
+]2;git status]1;gitOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add . [?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggcam ""86/113)   Writing objects:  77% (88/113)   Writing objects:  78% (89/113)   Writing objects:  79% (90/113)   Writing objects:  80% (91/113)   Writing objects:  81% (92/113)   Writing objects:  82% (93/113)   Writing objects:  83% (94/113)   Writing objects:  84% (95/113)   Writing objects:  85% (97/113)   Writing objects:  86% (98/113)   Writing objects:  87% (99/113)   Writing objects:  88% (100/113)   Writing objects:  89% (101/113)   Writing objects:  90% (102/113)   Writing objects:  91% (103/113)   Writing objects:  92% (104/113)   Writing objects:  93% (106/113)   Writing objects:  94% (107/113)   Writing objects:  95% (108/113)   Writing objects:  96% (109/113)   Writing objects:  97% (110/113)   Writing objects:  98% (111/113)   Writing objects:  99% (112/113)   Writing objects: 100% (113/113)   Writing objects: 100% (113/113), 29.16 KiB | 2.65 MiB/s, done.
+Total 113 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/serpentz/money_app_backend.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'https://github.com/serpentz/money_app_backend.git'.
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit status[?1l>[?2004l
+]2;git status]1;gitOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add . [?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggcam ""

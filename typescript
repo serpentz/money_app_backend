@@ -484,41 +484,52 @@ Total 4 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
 To https://github.com/serpentz/money_app_backend.git
    141961d..e6a2ec9  master -> master
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To https://github.com/serpentz/money_app_backend.git
-   05c65c7..141961d  master -> master
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hggit add . [?1l>[?2004l
-]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgit add . push commit -m"travis 1.0.2"[?1l>[?2004l
-]2;git commit -m"travis 1.0.2"]1;git[master e6a2ec9] travis 1.0.2
- 2 files changed, 36 insertions(+), 20 deletions(-)
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hgit commit -m"travis 1.0.2"" 3"[?1l>[?2004l
-]2;git commit -m"travis 1.0.3"]1;gitOn branch master
-nothing to commit, working tree clean
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;31m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hgit commit -m"travis 1.0.3"git     2"1[1C                      g gp[?1l>[?2004l
-]2;git push]1;gpEnumerating objects: 7, done.
-Counting objects:  14% (1/7)   Counting objects:  28% (2/7)   Counting objects:  42% (3/7)   Counting objects:  57% (4/7)   Counting objects:  71% (5/7)   Counting objects:  85% (6/7)   Counting objects: 100% (7/7)   Counting objects: 100% (7/7), done.
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgpgit commit -m"travis 1.0.3"2[1C[23Dadd .                  [17D[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgit add . [10Dgp       git commit -m"travis 1.0.3"[?1l>[?2004l
+]2;git commit -m"travis 1.0.3"]1;git[master ed01184] travis 1.0.3
+ 2 files changed, 42 insertions(+), 24 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hgit commit -m"travis 1.0.3"[23Dadd .                  [17D[10Dgp       [?1l>[?2004l
+]2;git push]1;gpEnumerating objects: 9, done.
+Counting objects:  11% (1/9)   Counting objects:  22% (2/9)   Counting objects:  33% (3/9)   Counting objects:  44% (4/9)   Counting objects:  55% (5/9)   Counting objects:  66% (6/9)   Counting objects:  77% (7/9)   Counting objects:  88% (8/9)   Counting objects: 100% (9/9)   Counting objects: 100% (9/9), done.
 Delta compression using up to 12 threads
-Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 690 bytes | 690.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/serpentz/money_app_backend.git
+   e6a2ec9..ed01184  master -> master
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h 75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
 Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 651 bytes | 651.00 KiB/s, done.
 Total 4 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
 To https://github.com/serpentz/money_app_backend.git
    141961d..e6a2ec9  master -> master
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgit add . push commit -m"travis 1.0.2"[?1l>[?2004l
-]2;git commit -m"travis 1.0.2"]1;git[master e6a2ec9] travis 1.0.2
- 2 files changed, 36 insertions(+), 20 deletions(-)
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hgit commit -m"travis 1.0.2"" 3"[?1l>[?2004l
-]2;git commit -m"travis 1.0.3"]1;gitOn branch master
-nothing to commit, working tree clean
-[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;31m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hgit commit -m"travis 1.0.3"git     2"1[1C                      g gp[?1l>[?2004l
-]2;git push]1;gpEnumerating objects: 7, done.
-Counting objects:  14% (1/7)   Counting objects:  28% (2/7)   Counting objects:  42% (3/7)   Counting objects:  57% (4/7)   Counting objects:  71% (5/7)   Counting objects:  85% (6/7)   Counting objects: 100% (7/7)   Counting objects: 100% (7/7), done.
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgpgit commit -m"travis 1.0.3"2[1C[23Dadd .                  [17D[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgit add . [10Dgp       git commit -m"travis 1.0.3"[?1l>[?2004l
+]2;git commit -m"travis 1.0.3"]1;git[master ed01184] travis 1.0.3
+ 2 files changed, 42 insertions(+), 24 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hgit commit -m"travis 1.0.3"[23Dadd .                  [17D[10Dgp       [?1l>[?2004l
+]2;git push]1;gpEnumerating objects: 9, done.
+Counting objects:  11% (1/9)   Counting objects:  22% (2/9)   Counting objects:  33% (3/9)   Counting objects:  44% (4/9)   Counting objects:  55% (5/9)   Counting objects:  66% (6/9)   Counting objects:  77% (7/9)   Counting objects:  88% (8/9)   Counting objects: 100% (9/9)   Counting objects: 100% (9/9), done.
 Delta compression using up to 12 threads
-Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
-Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 651 bytes | 651.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 690 bytes | 690.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
 To https://github.com/serpentz/money_app_backend.git
-   141961d..e6a2ec9  master -> master
+   e6a2ec9..ed01184  master -> master
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hm [K[?1h=[?2004hgpgit commit -m"travis 1.0.3"2[1C[23Dadd .                  [17D[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hgit add . [10Dgp       git commit -m"travis 1.0.3"[?1l>[?2004l
+]2;git commit -m"travis 1.0.3"]1;git[master ed01184] travis 1.0.3
+ 2 files changed, 42 insertions(+), 24 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hgit commit -m"travis 1.0.3"[23Dadd .                  [17D[10Dgp       [?1l>[?2004l
+]2;git push]1;gpEnumerating objects: 9, done.
+Counting objects:  11% (1/9)   Counting objects:  22% (2/9)   Counting objects:  33% (3/9)   Counting objects:  44% (4/9)   Counting objects:  55% (5/9)   Counting objects:  66% (6/9)   Counting objects:  77% (7/9)   Counting objects:  88% (8/9)   Counting objects: 100% (9/9)   Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 690 bytes | 690.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/serpentz/money_app_backend.git
+   e6a2ec9..ed01184  master -> master
 [1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;serpentz@Serpentzs-MBP: ~/Documents/development/Money-App/backend]1;..y-App/backend[0m[27m[24m[J[01;32m➜  [36mbackend[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h

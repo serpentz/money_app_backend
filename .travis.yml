@@ -4,6 +4,6 @@ rvm:
  - jruby
 services:
   - postgresql
-before_install:
-  - rake db:create
-  - rake db:migrate
+# before_install:
+#   - rake db:create
+#   - rake db:migrate
